@@ -20,6 +20,7 @@ specifiers:
   karma-jasmine: ~5.1.0
   karma-jasmine-html-reporter: ~2.0.0
   rxjs: ~7.5.0
+  sweetalert2: ^11.6.16
   tslib: ^2.3.0
   typescript: ~4.8.2
   zone.js: ~0.12.0
@@ -34,6 +35,7 @@ dependencies:
   '@angular/platform-browser-dynamic': 15.0.4_hnn6v3m7xpfwy5wugozvutqsyi
   '@angular/router': 15.0.4_6qoe6dvkj2mvffppuvjrhovg7y
   rxjs: 7.5.7
+  sweetalert2: 11.6.16
   tslib: 2.4.1
   zone.js: 0.12.0
 
@@ -6077,6 +6079,10 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /sweetalert2/11.6.16:
+    resolution: {integrity: sha512-T2FO8LptErsjE4r0WMfiSk4YbeUvPadNaUZ/cADMEOnws000znrf8zFX9S5e/spvzJDyRI5En73WQyDZhGypxQ==}
+    dev: false
 
   /symbol-observable/4.0.0:
     resolution: {integrity: sha512-b19dMThMV4HVFynSAM1++gBHAbk2Tc/osgLIBZMKsyqh34jb2e8Os7T6ZW/Bt3pJFdBTd2JwAnAAEQV7rSNvcQ==}
