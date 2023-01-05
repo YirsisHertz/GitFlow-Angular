@@ -5,6 +5,7 @@ div {
 }
 
 button {
+  margin-top: 2rem;
   font-size: 3rem;
   cursor: pointer;
   border-radius: 10px;
