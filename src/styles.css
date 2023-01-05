@@ -2,8 +2,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
+:root {
+  --bg-color: snow;
+  --color-text: #333;
+}
+
+html,
+body {
   font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--color-text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #333;
+    --color-text: snow;
+  }
 }
